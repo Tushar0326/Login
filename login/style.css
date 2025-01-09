@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 10px 10px 10px 30px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 1rem;
+    background: transparent;
+}
+
+input:focus {
+    border-bottom: 2px solid #6c63ff;
+    outline: none;
+}
+
+input::placeholder {
+    color: transparent;
+}
+
+label {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    font-size: 0.9rem;
+    color: #999;
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+input:focus ~ label,
+input:not(:placeholder-shown) ~ label {
+    top: -10px;
+    left: 0;
+    font-size: 0.8rem;
+    color: #6c63ff;
+}
+
+.recover {
+    text-align: right;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.recover a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+.recover a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #6c63ff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #5a54d4;
+}
+
+.or {
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: #666;
+}
+
+.icons {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.icons i {
+    color: #6c63ff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.icons i:hover {
+    color: #4f47b8;
+}
+
+.links {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.links a {
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
